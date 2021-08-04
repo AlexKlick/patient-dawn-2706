@@ -1,5 +1,5 @@
 require 'rails_helper'
-describe 'actor show page' do 
+describe 'competition index page' do 
   before(:each) do
     @competition1 = Competition.create!(name:'Kitzbühel', location:'Austria', sport:'downhill skiing')
     @competition2 = Competition.create!(name:'Super Bowl', location:'United State', sport:'football')
